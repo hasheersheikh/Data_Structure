@@ -1,15 +1,10 @@
-//function for sorting 
+//function for sorting
 //#sorting headers
-
 //header file
 #include<stdio.h>
 #include<stdlib.h>
-
 //created by hashir
-
-
 //bubble sort
-
 void bubble_sort(int arr[],int len)
 	{
 	int temp,i,j;
@@ -26,9 +21,7 @@ void bubble_sort(int arr[],int len)
 			}
 		}
 	}
-
 //insertion sort
-
 void insertion_sort(int arr[],int len){
    int i,j,key;
     for(j=1;j<=len-1;j++)
@@ -58,9 +51,7 @@ void selection_sort(int arr[],int len){
                  }
         }
 }
-
 //shell sort
-
 void shell_sort(int arr[],int len){
 	int gap,i,key,j;
 	for(gap=len/2;gap>0;gap/=2){
@@ -73,5 +64,3 @@ void shell_sort(int arr[],int len){
 	        }
 	}
 }
-
-
