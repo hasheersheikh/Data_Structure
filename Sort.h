@@ -5,8 +5,7 @@
 #include<stdlib.h>
 //created by hashir
 //bubble sort
-void bubble_sort(int arr[],int len)
-	{
+void bubble_sort(int arr[],int len){
 	int temp,i,j;
 	for(i=0;i<len;i++)
 		{
